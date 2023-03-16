@@ -13,6 +13,35 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #494949;
+}
+
+.hero-text {
+  width: 35rem;
+  text-align: center;
+}
+
+.explore-btn {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: #1b1b1d;
+  padding: 0.5rem 2rem;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  color: #49494a;
+}
+
+.explore-icon {
+  margin-left: 0.7rem;
+  font-size: 0.7rem;
+}
 .footer {
   display: flex;
   flex-direction: column;
@@ -102,19 +131,9 @@ body {
   text-align: center;
 }
 
-.explore-btn {
-  margin-top: 2rem;
-  border-radius: 0.3rem;
-  border: solid 0.1rem #151515;
-  background-color: #1b1b1d;
-  color: #fff;
-  width: 12rem;
-  height: 3rem;
-}
 
-.fa-solid {
-  margin-left: 0.8rem;
-}
+
+
 
 .footer {
   display: flex;
