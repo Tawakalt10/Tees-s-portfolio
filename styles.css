@@ -1,13 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  overflow: hidden;
 }
 
 body {
   background-color: #151515;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .footer {
@@ -16,20 +19,129 @@ body {
   justify-content: center;
   align-items: center;
 }
-.social-icons {
-  display: flex;
-  font-size: 1.5rem;
-}
 
-.icons-item {
+.social-media-icons {
+  margin-bottom: 1rem;
+}
+.icons-link {
   margin: 2rem;
   color: #fff;
 }
 
-.footer-para {
+.footer-text {
+  font-size: 0.8rem;
+  color: #49494a;
+}
+
+/* .nav {
+  position: relative;
+  display: flex;
+  height: 70vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-close,
+.nav-logo,
+.nav-toggle {
+  display: flex;
+  color: #c4bfbf;
+}
+
+.nav-toggle {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    background-color: #1b1b1d;
+    padding-block: 3.5rem;
+    transition: top 0.5s;
+  }
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 2rem;
+}
+
+.nav-link {
+  color: #6e6e6e;
+  font-weight: bold;
+  transition: color 0.4s;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.nav-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.info {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-descrip {
+  width: 35rem;
+  text-align: center;
+}
+
+.explore-btn {
+  margin-top: 2rem;
+  border-radius: 0.3rem;
+  border: solid 0.1rem #151515;
+  background-color: #1b1b1d;
+  color: #fff;
+  width: 12rem;
+  height: 3rem;
+}
+
+.fa-solid {
+  margin-left: 0.8rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  width: 100%;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.icons-item {
+  color: #fff;
+  margin-right: 4rem;
+}
+
+.footer-text {
   color: #77746f;
-  margin-left: 3rem;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
 }
 .sarah {
-  color: #7babc2;
-}
+  color: #a8a8a8;
+} */
