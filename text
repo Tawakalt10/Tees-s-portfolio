@@ -1,45 +1,72 @@
-  <header>
-      <nav class="nav container">
-        <div class="nav-menu" id="nav_menu">
-          <h4 class="nav-logo">Tawa.</h4>
+<header>
+  <nav class="nav container">
+    <div class="nav-menu" id="nav_menu">
+      <h4 class="nav-logo">Tawa.</h4>
 
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="http://" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="http://" class="nav-link">Work</a>
-            </li>
-            <li class="nav-item">
-              <a href="http://" class="nav-link">Articles</a>
-            </li>
-            <li class="nav-item">
-              <a href="http://" class="nav-link">Linkedln</a>
-            </li>
-            <li class="nav-item">
-              <a href="http://" class="nav-link">Connect With Me</a>
-            </li>
-          </ul>
-          <!-- close button -->
-          <div class="nav-close" id="nav_close">
-            <i class="fa-solid fa-xmark"></i>
-          </div>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="http://" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="http://" class="nav-link">Work</a>
+        </li>
+        <li class="nav-item">
+          <a href="http://" class="nav-link">Articles</a>
+        </li>
+        <li class="nav-item">
+          <a href="http://" class="nav-link">Linkedln</a>
+        </li>
+        <li class="nav-item">
+          <a href="http://" class="nav-link">Connect With Me</a>
+        </li>
+      </ul>
+      <!-- close button -->
+      <div class="nav-close" id="nav_close">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
 
-          <ul class="social-icons" id="social_icons">
-            <a class="icons-item" href="http://"
-              ><i class="fa-brands fa-github"></i
-            ></a>
-            <a class="icons-item" href="http://"
-              ><i class="fa-brands fa-twitter"></i
-            ></a>
-            <a class="icons-item" href="http://"
-              ><i class="fa-solid fa-at"></i
-            ></a>
-          </ul>
-        </div>
+      <ul class="social-icons" id="social_icons">
+        <a class="icons-item" href="http://"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a class="icons-item" href="http://"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a class="icons-item" href="http://"><i class="fa-solid fa-at"></i></a>
+      </ul>
+    </div>
 
-        <div class="nav-toggle" id="nav_toggle">
-          <i class="fa-solid fa-bars"></i>
-        </div>
-      </nav>
-    </header>
+    <div class="nav-toggle" id="nav_toggle">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </nav>
+</header>
+
+<div class="info">
+  <h4 class="name">Hello, I'm Raheem Tawakalitu O.</h4>
+  <p class="info-descrip">
+    I'm a software engineer. I create interactive web experiences using frontend
+    technology. I am interested in user experience, accessibility, design
+    systems, gaming, web3 and web animations
+  </p>
+  <button class="explore-btn">Explore <i class="fa-solid fa-play"></i></button>
+</div>
+<footer class="footer">
+  <ul class="social-icons">
+    <a class="icons-item" href="http://">
+      <i class="fa-brands fa-github"></i>
+    </a>
+    <a class="icons-item" href="http://">
+      <i class="fa-brands fa-twitter"></i>
+    </a>
+    <a class="icons-item" href="http://">
+      <i class="fa-brands fa-at"></i>
+    </a>
+  </ul>
+
+  <div>
+    <p class="footer-text">
+      Inspired by <span class="sarah"> Sarah Dayan</span>
+    </p>
+  </div>
+</footer>

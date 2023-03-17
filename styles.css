@@ -13,29 +13,145 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/* Header navigation */
+.header {
+  width: 100%;
+  /* background-color: transparent; */
+  background-color: var(--header-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--header-height);
+}
+
+.nav__logo,
+.nav__toggle {
+  display: inline-flex;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.nav__logo {
+  align-items: center;
+  column-gap: 0.25rem;
+  transition: 0.3s;
+}
+
+.nav__toggle {
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+
+@media screen and (max-width: 767px) {
+  .nav__menu {
+    position: fixed;
+    background-color: var(--body-color);
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(95px);
+    transition: 0.3s;
+  }
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 3rem;
+  padding: 5rem;
+  position: relative;
+}
+.nav__link {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: var(--text-color);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav__link:hover {
+  color: #444444;
+}
+
+.nav__close {
+  font-size: 2rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+/* End of Header Navigation */
+
+/* show mwnu */
+.show {
+  right: 0;
+}
 .hero {
+  padding: 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #494949;
+  color: #ffffff;
+  margin-top: 4rem;
 }
 
-.hero-text {
-  width: 35rem;
+.hero-description {
+  justify-content: center;
+  padding: 0;
+  display: flex;
   text-align: center;
 }
+
+.hero-name {
+  font-size: 1.3rem;
+}
+.hero-text {
+  font-size: 0.7rem;
+  line-height: 1.3rem;
+  margin-top: 0.2rem;
+}
+/* .show-menu {
+  top: 0;
+}
+
+.nav_menu {
+  position: fixed;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  padding: 4rem;
+}
+
+.nav_close {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+} */
 
 .explore-btn {
   margin-top: 2rem;
   margin-bottom: 2rem;
   background-color: #1b1b1d;
-  padding: 0.5rem 2rem;
+  padding: 0.7rem 2.5rem;
   outline: none;
   border: none;
   display: flex;
   align-items: center;
   color: #49494a;
+  border-radius: 0.3rem;
 }
 
 .explore-icon {
